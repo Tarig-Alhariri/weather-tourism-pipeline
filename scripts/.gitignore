@@ -1,0 +1,22 @@
+pwd
+
+@"
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
+
+# Ignore data folder
+data/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+"@ | Out-File -FilePath ".gitignore" -Encoding utf8
